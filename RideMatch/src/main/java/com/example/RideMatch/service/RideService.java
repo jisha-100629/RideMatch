@@ -9,7 +9,7 @@ import com.example.RideMatch.repository.EdgeRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.*;
-
+ 
 @Service
 public class RideService {
     private final DriverRepository driverRepository;
@@ -36,7 +36,7 @@ public class RideService {
         }
 
         Map<String, Object> response = new HashMap<>();
-        Driver bestDriver = null;
+        Driver bestDriver =null;
         
         if (!driverHeap.isEmpty()) {
             VertexRoute closest = driverHeap.poll();
