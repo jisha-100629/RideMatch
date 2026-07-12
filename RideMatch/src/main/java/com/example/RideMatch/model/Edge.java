@@ -1,7 +1,7 @@
 package com.example.RideMatch.model;
 
 import jakarta.persistence.*;
-
+ 
 @Entity
 @Table(name = "edges")
 public class Edge {
